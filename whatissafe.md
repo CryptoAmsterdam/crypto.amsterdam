@@ -35,7 +35,7 @@ guaranteed with them.
 - Gadu-Gadu
 - Google Hangouts
 - Kik Messenger
-- Skype, had backdoors [1] [2]
+- Skype, had backdoors, snowden said: [1], [2]
 - Snapchat
 - Tencent QQ
 - Yahoo! Messenger
