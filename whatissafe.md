@@ -44,6 +44,7 @@ guaranteed with them.
 - Facebook chat
 - Google Allo
 - Kakao Talk
+
 #### Open source, but not encrypted by default
 - Gajim
 - Jitsi
@@ -52,7 +53,7 @@ guaranteed with them.
 - Kopete
 - Adium
 
-## Encrypted by default, and reviewable source
+# Encrypted by default, and reviewable source
 This is a list of chat clients we trust. 
 - Signal
 - Ricochet
