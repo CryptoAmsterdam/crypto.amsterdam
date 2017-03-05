@@ -25,11 +25,11 @@ guaranteed with them.
 - WickrMessenger
 
 ## Do publish clients, but partially
-- Google Allo (incognito mode) [google-allo-source]
-- Threema [threema-source]
-- Whatsapp [whatsapp-client-source]
-- Facebook messenger (secret conversations) [facebook-secret-source]
-- Wickr Professional [wickr-pro-source]
+- Google Allo (incognito mode) [3]
+- Threema [4]
+- Whatsapp [5]
+- Facebook messenger (secret conversations) [6]
+- Wickr Professional [7]
 
 ## Client to server encryption (so you share with them!)
 - Gadu-Gadu
@@ -67,10 +67,10 @@ This is a list of chat clients we trust.
 [1]: https://arstechnica.com/security/2013/05/think-your-skype-messages-get-end-to-end-encryption-think-again/
 [2]: https://www.theguardian.com/world/2013/jul/11/microsoft-nsa-collaboration-user-data
 
-[whatsapp-client-source]: https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf
-[google-allo-source]: http://www.pcmag.com/news/351756/wickr-releases-crypto-protocol-on-github
-[facebook-secret-source]: https://web.archive.org/web/20160708213226/https://fbnewsroomus.files.wordpress.com/2016/07/secret_conversations_whitepaper.pdf
-[threema-source]: https://threema.ch/en/faq/source_code
-[wickr-pro-source]: http://www.pcmag.com/news/351756/wickr-releases-crypto-protocol-on-github
+[5]: https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf
+[3]: http://www.pcmag.com/news/351756/wickr-releases-crypto-protocol-on-github
+[6]: https://web.archive.org/web/20160708213226/https://fbnewsroomus.files.wordpress.com/2016/07/secret_conversations_whitepaper.pdf
+[4]: https://threema.ch/en/faq/source_code
+[7]: http://www.pcmag.com/news/351756/wickr-releases-crypto-protocol-on-github
 
 
