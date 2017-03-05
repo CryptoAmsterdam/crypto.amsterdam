@@ -25,11 +25,11 @@ guaranteed with them.
 - WickrMessenger
 
 ## Do publish clients, but partially
-- Google Allo (incognito mode) [3]
-- Threema [4]
-- Whatsapp [5]
-- Facebook messenger (secret conversations) [6]
-- Wickr Professional [7]
+- Google Allo (incognito mode) [view][3]
+- Threema [view][4]
+- Whatsapp [view][5]
+- Facebook messenger (secret conversations) [view][6]
+- Wickr Professional [view][7]
 
 ## Client to server encryption (so you share with them!)
 - Gadu-Gadu
