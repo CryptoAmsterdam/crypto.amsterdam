@@ -1,39 +1,76 @@
 <!DOCTYPE html>
 <style>
-    body {
-        background:black;
-        color:white;
-    }
-    div {
-        max-width: 400px;
-        margin: 100px auto;
-    }
-    .logo {
-        color: red;
-        font-weight:bold;
-        font-size: 50px;
-    }
+ body {
+     font-family: Monaco, Arial, Helvetica, sans-serif;
+     background:#0f0f0f;
+     color:white;
+ }
+ div {
+     max-width: 400px;
+     margin: 100px auto;
+ }
+ .intro {
+     color: #14db49;
+     position: relative;
+     display: inline-block;
+     font-weight:bold;
+ }
+ .text::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     right: -15px;
+     /* Remove display: inline-block if not required to be on the same line as text etc */
+     display: inline-block;
+     background-color: #14db49;
+     vertical-align: top;
+     width: 10px;
+     /* Set height to the line height of .text */
+     height: 16px;
+     /* 
+        Animation paramaters:
+        blink = animation-name, 
+        1s = animation-duration, 
+        step-end = animation-timing-function,
+        infinite = animation-iteration-count
+      */
+     -webkit-animation: blink 1s step-end infinite;
+     animation: blink 1s step-end infinite;
+ }
+
+ @-webkit-keyframes blink {
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+ }
+
+ @keyframes blink {
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+ }
 </style>
 <body>
-    <div class="logo">
-        X<br>
-        X<br>
-        X
-    </div>
-
     <div>
-        We are Crypto Amsterdam. <br><br>
+        <p class="intro text"> We are Crypto Amsterdam </p>
+        
+        <p>
+            You are constantly being watched. All your online activities are
+            being monitored. It targets our digital identity and freedom of speech.
+        </p>
 
-        You are constantly being watched. All your online activities are
-        being monitored. It targets our digital identity and freedom of speech.
-        <br>
+        <p>
+            Sharing knowledge on secure and private communication is the only way to guarantee
+            freedom in this networked and borderless world.
+        </p>
 
-        Sharing knowledge on secure and private communication is the only way to guarantee
-        freedom in this networked and borderless world.<br><br>
+        <p>
+            It is our mission to make safe communication understood by everyone,
+            and make the concepts just as simple as locking our doors.
+        </p>
 
-        It is our mission to make safe communication understood by everyone,
-        and make the concepts just as simple as locking our doors. <br><br>
-
-        We solely rely on tools that are secure by design, protect our privacy and are released under an open and liberal license. <br>
+        <p>
+            We solely rely on tools that are secure by design, protect our privacy and are released under an open and liberal license.
+        </p>
     </div>
 </body>
