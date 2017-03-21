@@ -1,6 +1,7 @@
 languageCode = "en-us"
 title = "crypto.amsterdam"
 baseURL = "http://crypto.amsterdam/"
+theme = "crypto.amsterdam"
 
 [[menu.main]]
 name = "Home"
